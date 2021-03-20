@@ -1,0 +1,35 @@
+
+.main-body
+{
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    float: left;
+}
+.left
+{
+    width: 60%;
+    height: 270px;
+    float: left;
+    color: black;
+  
+   
+}
+h1{
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+	font-size: 60px;
+	font-family: 'Kaushan Script';
+padding-bottom:20px;
+}
+.right
+{
+  margin-left:270px;
+  
+}
+.motto
+{
+  margin-top:200px;
+  margin-left:100px;
+}

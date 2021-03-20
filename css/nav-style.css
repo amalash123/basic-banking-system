@@ -1,0 +1,42 @@
+ul
+{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    color: white ;
+    
+    }
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+     background-color:#356cc4;
+     opacity: 0.8;
+     line-height: 20px;
+     text-align: center;
+     font-size: 18px;
+     margin-right: 3px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-right: 3px;
+}
+ul li a:hover
+{
+    color: black;
+    background:linear-gradient(45deg,
+    #9fbded,#4d6791
+    );
+   
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
